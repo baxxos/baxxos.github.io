@@ -1,15 +1,32 @@
+$bright-blue: #44aaee;
+$light-grey: #666;
+$body-backgound: $light-grey;
+
 html {
 	height: 100%;
 }
 
 body {
-	background-color: #666;
+	background-color: $body-backgound;
 	width: 100%;
 	min-height: 100%;
 	box-shadow: inset 0px 25px 175px 0px rgba(0,0,0,0.75);
+	font-size: 16px;
+	color: #eee;
 
-	#site_content {
-		color: #eee
+	hr { 
+	 	border: 0; 
+	 	height: 1px; 
+	 	background: $body-backgound; 
+	 	background-image: linear-gradient(to right, $body-backgound, #ccc, $body-backgound); 
+	}
+
+	a {
+		color: $bright-blue;
+
+		&:hover {
+			color: lighten($bright-blue, 20%);
+		}
 	}
 }
 
@@ -21,6 +38,7 @@ body {
 			}
 		}
 	}
+
 
 	.navbar-brand {
 		&:hover {
