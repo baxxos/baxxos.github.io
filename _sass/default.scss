@@ -1,5 +1,5 @@
-$bright-blue: #44aaee;
-$light-grey: #666;
+$bright-blue: #ffe066;
+$light-grey: #495057;
 $body-backgound: $light-grey;
 
 html {
@@ -30,7 +30,7 @@ body {
 		color: $bright-blue;
 
 		&:hover {
-			color: lighten($bright-blue, 20%);
+			color: lighten($bright-blue, 15%);
 		}
 	}
 }
@@ -49,6 +49,16 @@ body {
 		&:hover {
 			text-shadow: 0px 0px 20px #eee;
 		}
+	}
+}
+
+.read-more-btn {
+	background-color: #e67700;
+	border-color: #fab005;
+
+	&:hover {
+		background-color: #d9480f;
+		border-color: #fd7e14;
 	}
 }
 
