@@ -20,7 +20,10 @@ title: My blog (sort of)
 				<section id="blogLastPost">
 					{% assign lastPost = site.posts.first %}
 					<h3 class="italic">{{ lastPost.title }}</h3>
-					<p class="italic">Published on {{ lastPost.date | date_to_long_string }} by {{ lastPost.author }}</p>
+					<p class="italic">
+						Published on <span class="bold">{{ lastPost.date | date_to_long_string }}</span> 
+						<!-- by <span class="bold">{{ lastPost.author }}</span> -->
+					</p>
 					<p>{{ lastPost.description }}</p>
 					<p><a href="{{ lastPost.url }}">Read more..</a></p>
 				</section>

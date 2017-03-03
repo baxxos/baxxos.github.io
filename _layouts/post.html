@@ -4,7 +4,8 @@ title: Post HTML title
 ---
 <h1>{{ page.title }}</h1>
 <p class="italic">
-	Published on {{ page.date | date_to_long_string }} by {{ page.author }}
+	Published on <span class="bold">{{ page.date | date_to_long_string }}</span> 
+	<!-- by <span class="bold">{{ page.author }}</span> -->
 </p>
 <div class="post">
 	{{ content }}
