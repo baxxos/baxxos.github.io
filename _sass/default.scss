@@ -1,6 +1,5 @@
-$bright-blue: #ffe066;
-$light-grey: #495057;
-$body-backgound: $light-grey;
+$bright-yellow: $oc-yellow-3;
+$body-backgound: $oc-gray-7;
 
 html {
 	height: 100%;
@@ -16,7 +15,7 @@ body {
 	padding-bottom: 15px;
 
 	input {
-		color: black;
+		color: #333;
 	}
 
 	hr { 
@@ -27,18 +26,19 @@ body {
 	}
 
 	a {
-		color: $bright-blue;
+		color: $bright-yellow;
 
-		&:hover {
-			color: lighten($bright-blue, 15%);
+		&:hover, &:focus, &:active {
+			color: lighten($bright-yellow, 15%);
 		}
 	}
 }
 
 .navbar {
-	li {
+	.nav li {
 		a {
 			&:hover {
+				// color: lighten($bright-yellow, 15%);
 				text-decoration: underline;
 			}
 		}
@@ -47,25 +47,22 @@ body {
 
 	.navbar-brand {
 		&:hover {
+			color: lighten($bright-yellow, 15%);
 			text-shadow: 0px 0px 20px #eee;
 		}
 	}
 }
 
-.read-more-btn {
+.btn-schemed {
 	background-color: #e67700;
-	border-color: #fab005;
+	border-color: #e8590c;
+	color: white;
 
-	&:hover {
-		background-color: #d9480f;
+	&:hover, &:active, &:focus {
+		background-color: #e8590c;
 		border-color: #fd7e14;
+		color: white;
 	}
-}
-
-#blogLastPost {
-	border-radius: 8px;
-	border: 1px solid rgba(255, 255, 255, 0.5);
-	padding: 0px 15px;
 }
 
 .italic {
@@ -74,6 +71,24 @@ body {
 
 .bold {
 	font-weight: bold;
+}
+
+// Home page
+#welcomeJumbotron {
+	color: $oc-gray-8;
+	text-align: justify;
+
+	img {
+		width: 300px;
+		max-width: 100%;
+	}
+}
+
+// Blog page
+#blogLastPost {
+	border-radius: 8px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	padding: 0px 15px;
 }
 
 // Footer area
@@ -100,9 +115,9 @@ footer {
 			opacity: 1;
 		}
 	}
+}
 
-	#flexFooterRow {
-		//display: flex;
-		align-items: center; // Center content vertically
-	}
+.flex-valign {
+    display: flex;
+    align-items: center;
 }

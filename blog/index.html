@@ -25,7 +25,7 @@ title: My blog (sort of)
 						<!-- by <span class="bold">{{ lastPost.author }}</span> -->
 					</p>
 					<p>{{ lastPost.description }}</p>
-					<p><a href="{{ lastPost.url }}" class="btn btn-primary read-more-btn">Read more..</a></p>
+					<p><a href="{{ lastPost.url }}" class="btn btn-schemed">Read more..</a></p>
 				</section>
 			</div>
 		</div>
@@ -35,7 +35,7 @@ title: My blog (sort of)
 		<ul class="posts">
 			{% for post in site.posts %}
 				<li>
-					<span class="label label-default">{{ post.date | date_to_string }}</span> »
+					<span class="label label-default">{{ post.date | date_to_string }}</span> &raquo;
 					<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 				</li>
 			{% endfor %}
