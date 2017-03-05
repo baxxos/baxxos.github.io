@@ -47,8 +47,8 @@ body {
 
 	.navbar-brand {
 		&:hover {
-			color: lighten($bright-yellow, 15%);
-			text-shadow: 0px 0px 20px #eee;
+			//color: lighten($bright-yellow, 15%);
+			text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
 		}
 	}
 }
