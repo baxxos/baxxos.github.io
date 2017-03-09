@@ -1,0 +1,14 @@
+---
+layout: default
+title: Dev Profile
+---
+<div class="row">
+	<div class="col-md-12">
+		<h2>Languages &amp; stack</h2>
+		<p>If you're interested in what programming languages I currently use (or used in the past), here is a quick overview.
+	</div>
+</div>
+
+{% for lang in site.languages %}
+  {{ lang }}
+{% endfor %}

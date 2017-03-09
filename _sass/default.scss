@@ -1,6 +1,7 @@
 $bright-yellow: $oc-yellow-3;
 $body-backgound: $oc-gray-7;
 
+/*** GLOBALS ***/
 html {
 	height: 100%;
 }
@@ -65,6 +66,7 @@ body {
 	}
 }
 
+/*** UTILITIES ***/
 .italic {
 	font-style: italic;
 }
@@ -73,7 +75,7 @@ body {
 	font-weight: bold;
 }
 
-// Home page
+/*** Home page ***/
 #welcomeJumbotron {
 	color: $oc-gray-8;
 	text-align: justify;
@@ -84,14 +86,25 @@ body {
 	}
 }
 
-// Blog page
+/*** Blog page ***/
 #blogLastPost {
 	border-radius: 8px;
 	border: 1px solid rgba(255, 255, 255, 0.5);
 	padding: 0px 15px;
 }
 
-// Footer area
+/*** Dev profile page ***/
+.dev-profile-item {
+	text-align: justify;
+
+	img {
+		width: 100px;
+		float: left;
+		margin: 10px;
+	}
+}
+
+/*** Footer area ***/
 footer {
 	.icon-footer-contact {
 		opacity: 0.5;
