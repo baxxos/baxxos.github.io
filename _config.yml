@@ -1,6 +1,7 @@
 name: Personal website
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+global-title: "baxxos"
 collections:
   devlangs:
   projects:
