@@ -55,13 +55,13 @@ body {
 }
 
 .btn-schemed {
-	background-color: #e67700;
-	border-color: #e8590c;
+	background-color: $oc-yellow-9;
+	border-color: $oc-orange-8;
 	color: white;
 
 	&:hover, &:active, &:focus {
-		background-color: #e8590c;
-		border-color: #fd7e14;
+		background-color: $oc-orange-8;
+		border-color: $oc-orange-6;
 		color: white;
 	}
 }
@@ -81,8 +81,12 @@ body {
 	text-align: justify;
 
 	img {
-		width: 300px;
+		width: 250px;
 		max-width: 100%;
+	}
+
+	.btn, .btn-schemed {
+		margin: 10px 10px 10px 0px;
 	}
 }
 

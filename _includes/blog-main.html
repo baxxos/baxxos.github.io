@@ -1,0 +1,25 @@
+<div class="row">
+	<section class="col-md-12">
+		<h1>{{ page.title }}</h1>
+		<p>
+			In this section, I will mostly rant about random stuff that comes across my mind but ocassionaly I'll make myself write
+			a reasonable post. I promise.
+		</p>
+	</section>
+</div>
+
+<div class="row">
+	<div class="col-md-12">
+		<h2>Last post:</h2>
+		<section id="blogLastPost">
+			{% assign lastPost = site.posts.first %}
+			<h3 class="italic">{{ lastPost.title }}</h3>
+			<p class="italic">
+				Published on <span class="bold">{{ lastPost.date | date_to_long_string }}</span> 
+				<!-- by <span class="bold">{{ lastPost.author }}</span> -->
+			</p>
+			<p>{{ lastPost.description }}</p>
+			<p><a href="{{ lastPost.url }}" class="btn btn-schemed">Read more..</a></p>
+		</section>
+	</div>
+</div>

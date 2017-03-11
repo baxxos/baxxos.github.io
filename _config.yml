@@ -2,4 +2,4 @@ name: Personal website
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 collections:
-  languages:
+  devlangs:
