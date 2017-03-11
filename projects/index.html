@@ -1,0 +1,14 @@
+---
+layout: default
+title: Projects
+---
+<div class="row">
+	<div class="col-md-12">
+		<h1>My work</h1>
+		<p>There is nothing amazing to see yet but perhaps you might be interested in some of my school projects:
+	</div>
+</div>
+
+{% for project in site.projects %}
+  {{ project }}
+{% endfor %}

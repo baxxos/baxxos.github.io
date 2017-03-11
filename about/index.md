@@ -8,16 +8,14 @@ The main goal was to get familiar with an advanced way to create static websites
 the actual content. Whole idea of the page is based on [this](https://www.google.com "Creating and Hosting a Personal Site on GitHub") tutorial by _Jonathan McGlone_ which I followed step-by-step first and later customized it according to my needs.
 
 ## Architecture
-* HTML5, CSS3 and Bootstrap 3 for the looks
-* OpenColor for the colors
-* Markdown for writing the content
-* Jekyll for serving the content
-* GitHub Pages for publishing and hosting
+* HTML5, CSS3 (Sass) and [Bootstrap 3](http://getbootstrap.com/) for the looks
+* [OpenColor](https://yeun.github.io/open-color/) for the color scheme
+* [Markdown](https://daringfireball.net/projects/markdown/) for writing the content
+* [Jekyll](https://jekyllrb.com/) for serving the content
+* [GitHub Pages](https://pages.github.com/) for publishing and hosting
 
 # About me
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+My real name is _Michal Melúch_ and I do all sorts of programming stuff. However, most of the time I like to play around with websites - anything from colors, layout or design to the UX improvements. Currently I'm still studying - I'm in my final year of bachelor's studies at the [Faculty of Informatics and Information Technologies](http://www.fiit.stuba.sk/) (Slovak University of Technology in Bratislava). In the futue, I'd like to focus on improving the overall usability of websites and applications in general. In my spare time, I like to ~~_do nothing as I have no spare time_~~ go for a drive, play a game of basketball or browse dank memes.
+
+If you're interested in my work, found a bug on this website or just want to leave a random message, please feel free to use any of the contact channels listed at the bottom
+of the page.
