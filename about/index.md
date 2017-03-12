@@ -17,5 +17,4 @@ the actual content. Whole idea of the page is based on [this](https://www.google
 # About me
 My real name is _Michal Melúch_ and I do all sorts of programming stuff. However, most of the time I like to play around with websites - anything from colors, layout or design to the UX improvements. Currently I'm still studying - I'm in my final year of bachelor's studies at the [Faculty of Informatics and Information Technologies](http://www.fiit.stuba.sk/) (Slovak University of Technology in Bratislava). In the futue, I'd like to focus on improving the overall usability of websites and applications in general. In my spare time, I like to ~~_do nothing as I have no spare time_~~ go for a drive, play a game of basketball or browse dank memes.
 
-If you're interested in my work, found a bug on this website or just want to leave a random message, please feel free to use any of the contact channels listed at the bottom
-of the page.
+If you're interested in my work, found a bug on this website or just want to leave a random message, please feel free to use any of the contact channels listed at the bottom of the page.
