@@ -1,7 +1,7 @@
 ---
 layout: projects-item
 title: BP v Docbook-u
-project_url: https://github.com/baxxos/natankuj
+project_url: https://github.com/baxxos/bp_docbook
 image_path: /images/natankuj.jpg
 ---
 ### Zadanie
@@ -26,7 +26,7 @@ Aby bolo možné dosiahnuť požadované konštrukcie museli byť v pôvodnom ob
 * pridanie registra pojmov
 * pridanie poznámky pod čiarou
 
-Ďalej bolo nutné odstrániť z práce všetky tabuľky vzhľadom na fakt, že Docbook ich nepodporuje bez nutnosti externých Java knižníc. Bohužiaľ tieto knižnice (_xalan_, _xercesImpl_, _xml-apis_) na seba navzájom nadväzujú a na mojom počítači som ich nebol schopný spustiť tak aby boli viditeľné pre Saxon. Pri preklade tak došlo vždy ku nasledujúcej chybe: "_No adjustColumnWidths function available_ (Processing terminated)". Neskúšal som replikovať problém na inom stroji pretože podľa dostupných informácií ostatným študentom tieto knižnice fungujú. Napriek tomu sú však v odovzdanom XML kóde tabuľky aj s ich pôvodným obsahom v Docbook formáte zahrnuté avšak sú umiestnené len v komentároch.
+Ďalej bolo nutné odstrániť z práce všetky tabuľky vzhľadom na fakt, že Docbook ich nepodporuje bez nutnosti externých Java knižníc. Bohužiaľ tieto knižnice (_xalan_, _xercesImpl_, _xml-apis_) na seba navzájom nadväzujú a na mojom počítači som ich nebol schopný spustiť tak aby boli viditeľné pre Saxon. Pri preklade tak došlo vždy ku nasledujúcej chybe: "_No adjustColumnWidths function available_ (Processing terminated)". Neskúšal som replikovať problém na inom stroji pretože podľa dostupných informácií ostatným študentom tieto knižnice fungujú. Napriek tomu sú v odovzdanom XML kóde tabuľky aj s ich pôvodným obsahom v Docbook formáte zahrnuté avšak sú umiestnené len v komentároch. Pre viac informácií o spomínanej chybe kliknite [sem](http://docbook.10921.n7.nabble.com/adjustColumnwidths-error-td6894.html) alebo [sem](https://www.sourceware.org/ml/docbook-apps/2003-q2/msg00890.html).
 
 Najčastejšie používanými elementami zadania sú logicky elementy chapter, section, title, para a figure. Z atribútov sú to hlavne unikátne identifikátory (id) a role. Vzorové XSL schémy boli prispôsobované v miere nutnej pre korektné formátovanie titulnej strany, automatické generovanie zoznamu obrázkov a správne zobrazenie v slovenčine.
 
@@ -43,6 +43,6 @@ Repozitár obsahuje nasledujúce súbory/priečinky:
 
 Pre získanie výstupného PDF súboru je nutné zadať nasledujúce príkazy (za predpokladu, že je adresár umiestnený v Docbook/bat/bp):
 
-* fo_saxon.bat mojabp.xml
-* pdf_xep.bat
+* _fo_saxon.bat mojabp.xml_
+* _pdf_xep.bat_
 
