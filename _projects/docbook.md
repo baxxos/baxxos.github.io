@@ -36,13 +36,13 @@ Repozitár obsahuje nasledujúce súbory/priečinky:
 
 * images - priečinok s obrázkami
 * fo.pdf - výstupný PDF súbor
-* mojabp.xml - vstupný XML súbor s obsahom bakalárskej práce
+* mojabp.xml - vstupný XML súbor s obsahom bakalárskej práce (10-15 strán z pôvodného)
+* MMeluch_bp.docx - pôvodné znenie bakalárskej práce
 * fo_saxon.bat - docbook konverzia, na vstupe treba zadať ako vstupný súbor _mojabp.xml_
 * thesis.xml - všeobecná vzorová šablóna
 * thesis-tp-fo.xml - vzorová šablóna pre titulné strany atď. (includovaná do _thesis.xsl_)
 
-Pre získanie výstupného PDF súboru je nutné zadať nasledujúce príkazy (za predpokladu, že je adresár umiestnený v Docbook/bat/bp):
+Pre získanie výstupného PDF súboru je nutné zadať nasledujúce príkazy (za predpokladu, že je tento adresár s názvom "bp" umiestnený v C:/Docbook/bat/):
 
 * _fo_saxon.bat mojabp.xml_
 * _pdf_xep.bat_
-
