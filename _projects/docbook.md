@@ -26,9 +26,9 @@ Aby bolo možné dosiahnuť požadované konštrukcie museli byť v pôvodnom ob
 * pridanie registra pojmov
 * pridanie poznámky pod čiarou
 
-Ďalej bolo nutné odstrániť z práce všetky tabuľky vzhľadom na fakt, že Docbook ich nepodporuje bez nutnosti externých Java knižníc. Bohužiaľ tieto knižnice (_xalan_, _xercesImpl_, _xml-apis_) na seba navzájom nadväzujú a na mojom počítači som ich nebol schopný spustiť tak aby boli viditeľné pre Saxon. Pri preklade tak došlo vždy ku nasledujúcej chybe: "_No adjustColumnWidths function available_ (Processing terminated)". Neskúšal som replikovať problém na inom stroji pretože podľa dostupných informácií ostatným študentom tieto knižnice fungujú. Napriek tomu sú v odovzdanom XML kóde tabuľky aj s ich pôvodným obsahom v Docbook formáte zahrnuté avšak sú umiestnené len v komentároch. Pre viac informácií o spomínanej chybe kliknite [sem](http://docbook.10921.n7.nabble.com/adjustColumnwidths-error-td6894.html) alebo [sem](https://www.sourceware.org/ml/docbook-apps/2003-q2/msg00890.html).
+Ďalej bolo nutné odstrániť z práce všetky tabuľky a nahradiť ich obrázkami vzhľadom na fakt, že Docbook ich nepodporuje bez nutnosti externých Java knižníc. Bohužiaľ tieto knižnice (_xalan_, _xercesImpl_, _xml-apis_) na seba navzájom nadväzujú a na mojom počítači som ich nebol schopný spustiť tak aby boli viditeľné pre Saxon. Pri preklade tak došlo vždy ku nasledujúcej chybe: "_No adjustColumnWidths function available_ (Processing terminated)". Neskúšal som replikovať problém na inom stroji pretože podľa dostupných informácií niektorým študentom tieto knižnice fungujú a niektorým zasa nie. Napriek tomu sú v odovzdanom XML kóde tabuľky aj s ich pôvodným obsahom v Docbook formáte zahrnuté avšak sú umiestnené len v komentároch. Pre viac informácií o spomínanej chybe kliknite [sem](http://docbook.10921.n7.nabble.com/adjustColumnwidths-error-td6894.html) alebo [sem](https://www.sourceware.org/ml/docbook-apps/2003-q2/msg00890.html).
 
-Najčastejšie používanými elementami zadania sú logicky elementy chapter, section, title, para a figure. Z atribútov sú to hlavne unikátne identifikátory (id) a role. Vzorové XSL schémy boli prispôsobované v miere nutnej pre korektné formátovanie titulnej strany, automatické generovanie zoznamu obrázkov a správne zobrazenie v slovenčine.
+Najčastejšie používanými elementami zadania sú logicky elementy chapter, section, title, para, itemizedlist/listitem, xref a figure. Z atribútov sú to hlavne unikátne identifikátory (id) a role. Vzorové XSL schémy boli prispôsobované v miere nutnej pre korektné formátovanie titulnej strany, automatické generovanie zoznamu obrázkov a správne zobrazenie v slovenčine.
 
 ### Zoznam súborov a pokyny pre spustenie
 
@@ -37,7 +37,7 @@ Repozitár obsahuje nasledujúce súbory/priečinky:
 * images - priečinok s obrázkami
 * fo.pdf - výstupný PDF súbor
 * mojabp.xml - vstupný XML súbor s obsahom bakalárskej práce (10-15 strán z pôvodného)
-* MMeluch_bp.docx - pôvodné znenie bakalárskej práce
+* xmeluch_bp.pdf - pôvodné znenie bakalárskej práce
 * fo_saxon.bat - docbook konverzia, na vstupe treba zadať ako vstupný súbor _mojabp.xml_
 * thesis.xml - všeobecná vzorová šablóna
 * thesis-tp-fo.xml - vzorová šablóna pre titulné strany atď. (includovaná do _thesis.xsl_)
@@ -46,3 +46,4 @@ Pre získanie výstupného PDF súboru je nutné zadať nasledujúce príkazy (z
 
 * _fo_saxon.bat mojabp.xml_
 * _pdf_xep.bat_
+
