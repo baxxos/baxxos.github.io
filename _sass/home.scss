@@ -1,0 +1,14 @@
+#welcomeJumbotron {
+  color: $oc-gray-8;
+  text-align: justify;
+
+  img {
+    width: 250px;
+    max-width: 100%;
+  }
+
+  .btn,
+  .btn-schemed {
+    margin: 10px 10px 10px 0px;
+  }
+}
