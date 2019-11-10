@@ -1,41 +1,62 @@
 <footer>
-	<div class="row">
-		<hr />
-		<div id="flexFooterRow">
-			<div class="col-md-4 text-center">
-				<div class="icon-footer-contact">
-					<a href="https://github.com/baxxos">
-						<img src="/images/github.png" alt="Contact: GitHub" title="Check my code at GitHub" width="36">
-					</a>
-				</div>
+  <div class="row">
+    <hr />
+    <div id="flexFooterRow">
+      <div class="col-md-4 text-center">
+        <div class="icon-footer-contact">
+          <a href="https://github.com/baxxos">
+            <img
+              src="/images/github.png"
+              alt="Contact: GitHub"
+              title="Check my code at GitHub"
+              width="36"
+            />
+          </a>
+        </div>
 
-				<div class="icon-footer-contact">
-					<a href="mailto:meluch.m@gmail.com">
-						<img src="/images/gmail.png" alt="Contact: Gmail" title="Send me an e-mail" width="36">
-					</a>
-				</div>
+        <div class="icon-footer-contact">
+          <a href="mailto:meluch.m@gmail.com">
+            <img
+              src="/images/gmail.png"
+              alt="Contact: Gmail"
+              title="Send me an e-mail"
+              width="36"
+            />
+          </a>
+        </div>
 
-				<div class="icon-footer-contact">
-					<img src="/images/skype.png" alt="Contact: Skype" title="Call me maybe?" width="36"> baxtorian
-				</div>
-			</div>
-			<div class="col-md-4 text-center">
-				<p>
-					<span class="italic">Handmade with love ©2017</span>
-				</p>
-				<p class="italic">
-					Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://pages.github.com/">GitHub Pages</a>
-				</p>
-			</div>
-			<div class="col-md-4 text-center">
-				<a href="/blog/atom.xml" class="icon-footer-other" title="RSS feed">
-					<img src="/images/rss.png" alt="RSS feed" width="36">
-				</a>
-				<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbaxxos.github.io%2F" class="icon-footer-other" 
-				title="This website is optimised for HTML5 browsers">
-					<img src="/images/html5.png" alt="Validate HTML markup" width="36">
-				</a>
-			</div>
-		</div>
-	</div>
+        <div class="icon-footer-contact">
+          <img
+            src="/images/skype.png"
+            alt="Contact: Skype"
+            title="Call me. People still use Skype, right?"
+            width="36"
+          />
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <p>
+          <span class="italic"
+            >Handmade with love © {{ site.time | date: "%Y" }}</span
+          >
+        </p>
+        <p class="italic">
+          Powered by <a href="https://jekyllrb.com/">Jekyll</a> and
+          <a href="https://pages.github.com/">GitHub Pages</a>
+        </p>
+      </div>
+      <div class="col-md-4 text-center">
+        <a href="/blog/atom.xml" class="icon-footer-other" title="RSS feed">
+          <img src="/images/rss.png" alt="RSS feed" width="36" />
+        </a>
+        <a
+          href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbaxxos.github.io%2F"
+          class="icon-footer-other"
+          title="This website uses HTML5"
+        >
+          <img src="/images/html5.png" alt="Validate HTML markup" width="36" />
+        </a>
+      </div>
+    </div>
+  </div>
 </footer>
